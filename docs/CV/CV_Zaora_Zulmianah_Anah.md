@@ -26,11 +26,19 @@ Berpengalaman lebih dari 5 tahun, 10+ client dari berbagai sektor dan negara. Me
 - Agile & Scrum
 
 ## Portofolio
-- bylinea.com
-- katielyn.com
-- inspeksi.org
-- unaindonesia.org
-- z-anah.github.io/pocket-utility
+### bylinea.com
+- Membangun seluruh sistem web admin dari nol, termasuk frontend, prototipe, dan integrasi API.
+- Mengimplementasikan fitur-fitur lanjutan: integrasi AI, modul flow chart, integrasi pembayaran Stripe, dan form dinamis tingkat lanjut.
+- Merancang sistem agar tetap berjalan lancar meski menangani data dalam jumlah besar.
+PS: Web admin tidak dapat diakses publik, demi keamanan data dan privasi perusahaan.
+### katielyn.com
+- Memimpin strategi SEO, arsitektur data, dan desain visual untuk meningkatkan jangkauan dan keterlibatan pengguna.
+- Menghasilkan pengalaman website yang terpadu dan berdampak.
+### inspeksi.org
+### unaindonesia.org
+- Merancang dan mengeksekusi konsep website secara menyeluruh, termasuk area publik dan admin.
+- Mengelola seluruh proses dari ide awal hingga implementasi akhir, memastikan kesesuaian dengan tujuan organisasi.
+### z-anah.github.io/pocket-utility
 
 ## Kontak
 - Email: zulmianah@gmail.com
