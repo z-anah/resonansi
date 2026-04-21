@@ -15,7 +15,7 @@ Dengan hormat,
 
 Sehubungan dengan adanya permintaan penawaran untuk pengembangan Website Resonansi, bersama surat ini kami mengajukan penawaran sebagai berikut:
 
-1. **Nama Perusahaan/Individu** : Angga Agista & Zaora Zulmianah Anah
+1. **Nama Perusahaan** : KodeKita
 2. **Alamat** : JL. Pulomangga Komplek Cinere Park View Blok J15, KEL GROGOL, KEC LIMO
 3. **Email** : zulmianah@gmail.com
 4. **No. Telepon/HP** : 087772897512
@@ -23,12 +23,8 @@ Sehubungan dengan adanya permintaan penawaran untuk pengembangan Website Resonan
 **Rincian Penawaran:**
 - Pengembangan Website Resonansi sesuai dengan kebutuhan dan ruang lingkup pekerjaan yang telah ditentukan oleh ICW.
 - Total biaya pengerjaan: **Rp 30.000.000** (Tiga Puluh Juta Rupiah), sudah termasuk pajak.
-- Waktu pengerjaan: [Isi estimasi waktu pengerjaan sesuai timeline yang ditentukan]
-- Garansi dan maintenance: [Isi jika ada]
-
-**Lampiran:**
-- Curriculum Vitae (CV)
-- Portofolio Pengembangan Website
+- Waktu pengerjaan: TBD (sesuai dengan timeline yang telah ditentukan oleh ICW).
+- Garansi dan maintenance: Kami menyediakan garansi selama 6 bulan setelah serah terima pekerjaan, serta layanan maintenance selama 1 tahun dengan biaya tambahan yang akan disepakati kemudian.
 
 Demikian surat penawaran ini kami sampaikan. Besar harapan kami untuk dapat bekerja sama dalam pengembangan Website Resonansi. Atas perhatian dan kepercayaannya, kami ucapkan terima kasih.
 
