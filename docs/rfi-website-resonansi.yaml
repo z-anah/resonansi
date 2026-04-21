@@ -1,0 +1,79 @@
+# Resonansi Website RFI (Request for Interest)
+
+project_name: Resonansi Website Development
+organization: Indonesia Corruption Watch (ICW)
+budget: 30000000 # IDR
+application_deadline: 2026-04-24
+contact_email: resonansi@antikorupsi.org
+apply_link: http://bit.ly/WebsiteResonansi
+
+website_purpose: |
+  Resonansi is a public space by ICW for safe, collaborative, and creative anti-corruption activities. The website will inform, promote, and enable public engagement and digital services.
+
+main_components:
+  homepage:
+    description: "Main page with engaging content, upcoming events, activity updates, space promotion, location, contact, and testimonials."
+  header:
+    menu: [Resonansi, Services, Business, Library, Participation, Activities, Contact, Join Resocircle]
+  above_the_fold:
+    visuals: "Photos/videos/slideshow of activities and space promotion. Includes 'Explore Resonansi' call-to-action."
+  special_pages:
+    - Resonansi: "About, team, partners, users, values, vision."
+    - Services: "Room facilities, usage types, membership."
+    - Business: "Merchandise, production house, knowledge products, F&B, training, partnerships."
+    - Library: "Book collection, shelf rental, book loan, library programs, reading club."
+    - Participation: "Collaboration info, volunteer, fellowship (funding & mentoring)."
+    - Activities: "Public discussions, art, fundraising, press conferences, events."
+    - Contact: "Feedback, email, phone."
+    - Join Resocircle: "Join the Resonansi movement."
+  user_profile:
+    description: "Login system, user profile, activity history, transaction records, support history."
+  footer:
+    description: "Contact, address, social media, FAQ, publications."
+  mobile_responsive: true
+
+visual_identity:
+  colors:
+    - "#004A78"
+    - "#8ED8F8"
+    - "#FFD530"
+    - "#E89DB9"
+    - "#83C997"
+  style: "Cheerful, energetic, optimistic, user-friendly, elegant, modern."
+  references:
+    - https://go-work.com/locations/jakarta-selatan/pacific-place
+    - https://www.concretespace.co.id/
+    - https://www.wellspaces.co/
+
+scope_of_work:
+  - Design and develop a user-friendly, efficient, visually appealing website
+  - Ensure responsive design for desktop and mobile
+  - Test all features and user flows
+  - Coordinate with Resonansi team for feedback and improvements
+  - Fix bugs and refine features during development
+  - Provide technical documentation and progress reports
+
+requirements:
+  - Portfolio of at least 1 year live website (commercial preferred)
+  - Skills in PHP, JavaScript, HTML/CSS, MySQL/PostgreSQL
+  - UI/UX design experience
+  - Active communication with ICW during and after development
+
+deliverables:
+  - Website with:
+      - Design prototype (wireframe/interactive)
+      - Final UI/UX design
+      - Website theme template ready for implementation
+  - Completion report (development process, achievements, maintenance needs, future recommendations)
+
+application_documents:
+  - CV
+  - Quotation Letter
+  - Website Portfolio
+
+schedule:
+  - 2026-04-24: Tender closes
+  - 2026-04-28: Tender explanation (Zoom or written)
+  - 2026-04-28 to 2026-05-01: Vendor presentations
+  - 2026-05-04 to 2026-05-08: Selection by team
+  - 2026-05-11: Winner announcement
