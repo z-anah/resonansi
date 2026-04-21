@@ -17,12 +17,22 @@ Sehubungan dengan adanya permintaan penawaran untuk pengembangan Website Resonan
 
 1. **Nama Perusahaan** : KodeKita
 2. **Alamat** : JL. Pulomangga Komplek Cinere Park View Blok J15, KEL GROGOL, KEC LIMO
-3. **Email** : zulmianah@gmail.com
+3. **Email** : kodekita.official@gmail.com
 4. **No. Telepon/HP** : 087772897512
 
 **Rincian Penawaran:**
+
 - Pengembangan Website Resonansi sesuai dengan kebutuhan dan ruang lingkup pekerjaan yang telah ditentukan oleh ICW.
-- Total biaya pengerjaan: **Rp 30.000.000** (Tiga Puluh Juta Rupiah), sudah termasuk pajak.
+ Total biaya pengerjaan: **Rp 30.000.000** (Tiga Puluh Juta Rupiah), sudah termasuk pajak, dengan rincian sebagai berikut:
+
+| Komponen                                 | Biaya           |
+|------------------------------------------|-----------------|
+| Desain UI/UX dan prototipe               | Rp 6.000.000    |
+| Pengembangan frontend & backend          | Rp 15.000.000   |
+| Integrasi fitur (booking, form, dsb)     | Rp 5.000.000    |
+| Pengujian, dokumentasi, dan pelatihan    | Rp 2.000.000    |
+| Support & komunikasi proyek              | Rp 2.000.000    |
+| **Total**                                | **Rp 30.000.000** |
 - Waktu pengerjaan: TBD (sesuai dengan timeline yang telah ditentukan oleh ICW).
 - Garansi dan maintenance: Kami menyediakan garansi selama 6 bulan setelah serah terima pekerjaan, serta layanan maintenance selama 1 tahun dengan biaya tambahan yang akan disepakati kemudian.
 
