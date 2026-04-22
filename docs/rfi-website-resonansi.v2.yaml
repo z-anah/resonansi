@@ -44,6 +44,15 @@ visual_identity:
     - https://go-work.com/locations/jakarta-selatan/pacific-place
     - https://www.concretespace.co.id/
     - https://www.wellspaces.co/
+  inspirations:
+    - Modern, clean, and professional layout with ample white space for clarity and comfort.
+    - High-quality, well-lit imagery to showcase space, activities, and community.
+    - Clear content hierarchy and easy-to-scan sections.
+    - Rounded buttons, subtle icons, and soft drop shadows for a friendly, approachable interface.
+    - Prominent call-to-action buttons and highlighted key actions (e.g., booking, contact).
+    - Card-based layouts and section separation for visual clarity.
+    - Welcoming, community-focused vibe with testimonials and amenities visually emphasized.
+    - Location and contact info presented clearly, with map integration if possible.
 
 scope_of_work:
   - Design and develop a user-friendly, efficient, visually appealing website
@@ -77,3 +86,162 @@ schedule:
   - 2026-04-28 to 2026-05-01: Vendor presentations
   - 2026-05-04 to 2026-05-08: Selection by team
   - 2026-05-11: Winner announcement
+
+  # ---
+  # Additional Information for AI Website Generation
+
+  content_structure_navigation:
+    site_map:
+      - Homepage
+      - Resonansi (About, Team, Partners, Users, Values, Vision)
+      - Services (Room Facilities, Usage Types, Membership)
+      - Business (Merchandise, Production House, Knowledge Products, F&B, Training, Partnerships)
+      - Library (Book Collection, Shelf Rental, Book Loan, Library Programs, Reading Club)
+      - Participation (Collaboration Info, Volunteer, Fellowship)
+      - Activities (Public Discussions, Art, Fundraising, Press Conferences, Events)
+      - Contact (Feedback, Email, Phone)
+      - Join Resocircle
+      - User Profile (Login, Activity History, Transactions, Support)
+    menu_structure:
+      main_menu:
+        - Resonansi
+        - Services
+        - Business
+        - Library
+        - Participation
+        - Activities
+        - Contact
+        - Join Resocircle
+      navigation_flow:
+        - Homepage → Main sections (above the fold, events, testimonials, etc.)
+        - Menu links to each main page
+        - User Profile accessible after login
+
+  page_details:
+    homepage:
+      purpose: "Welcome, inform, and engage visitors. Showcase activities, events, and space."
+      key_sections:
+        - Hero section (visuals, call-to-action)
+        - Upcoming events
+        - Activity updates
+        - Space promotion
+        - Location & contact info
+        - Testimonials
+      look_and_feel:
+        - Use engaging hero visuals (photos or slideshow) similar to GoWork for immediate impact.
+        - Feature testimonials and amenities in visually distinct cards or sections.
+        - Ensure navigation and CTAs are always accessible and visually prominent.
+        - Maintain a clean, uncluttered layout with clear separation between sections.
+    resonansi:
+      purpose: "Introduce Resonansi, its team, partners, values, and vision."
+      key_sections:
+        - About
+        - Team
+        - Partners
+        - Users
+        - Values & Vision
+    services:
+      purpose: "Present available room facilities, usage types, and membership options."
+      key_sections:
+        - Room facilities
+        - Usage types
+        - Membership info
+    business:
+      purpose: "Showcase business offerings and partnership opportunities."
+      key_sections:
+        - Merchandise
+        - Production house
+        - Knowledge products
+        - F&B
+        - Training
+        - Partnerships
+    library:
+      purpose: "Provide information on book collection, programs, and library services."
+      key_sections:
+        - Book collection
+        - Shelf rental
+        - Book loan
+        - Library programs
+        - Reading club
+    participation:
+      purpose: "Encourage collaboration, volunteering, and fellowship."
+      key_sections:
+        - Collaboration info
+        - Volunteer
+        - Fellowship (funding & mentoring)
+    activities:
+      purpose: "List and promote public activities and events."
+      key_sections:
+        - Public discussions
+        - Art events
+        - Fundraising
+        - Press conferences
+        - Other events
+    contact:
+      purpose: "Enable users to provide feedback and reach out."
+      key_sections:
+        - Feedback form
+        - Email
+        - Phone
+    join_resocircle:
+      purpose: "Invite users to join the Resonansi movement."
+      key_sections:
+        - Registration form
+        - Info about Resocircle
+    user_profile:
+      purpose: "Allow users to manage their profile, activities, and transactions."
+      key_sections:
+        - Login/Logout
+        - Profile info
+        - Activity history
+        - Transaction records
+        - Support history
+
+  typography_preferences:
+    fonts:
+      - Primary: 'Inter', 'Montserrat', or similar modern sans-serif
+      - Secondary: 'Roboto', 'Arial', or system sans-serif
+    sizes:
+      - Headings: 2.25rem, 1.5rem, 1.25rem
+      - Body: 1rem, 0.875rem
+
+  functional_requirements:
+    user_flows:
+      - Login/Logout
+      - Registration (Join Resocircle, Library membership)
+      - Booking (room, event, shelf)
+      - Feedback submission
+      - Profile management
+    forms:
+      - Login form (email, password)
+      - Registration forms (name, email, password, etc.)
+      - Booking forms (date, time, facility, user info)
+      - Feedback form (name, email, message)
+      - Contact form
+      - Profile update form
+    data_to_collect:
+      - User info (name, email, password, profile details)
+      - Booking details
+      - Feedback messages
+      - Activity history
+      - Transaction records
+
+  special_features:
+    animations_microinteractions:
+      - Button hover effects
+      - Smooth page transitions
+      - Animated hero section (slideshow, video, or image transitions)
+      - Interactive event cards
+      - Form validation feedback
+    error_empty_state_designs:
+      - Custom 404 page (friendly message, navigation options)
+      - Empty state illustrations/messages for no data (e.g., no events, no books)
+      - Loading indicators
+
+  target_audience:
+    - General public interested in anti-corruption activities
+    - Community members and activists
+    - Potential collaborators and partners
+    - Library users (readers, club members)
+    - Event participants
+    - Volunteers and fellows
