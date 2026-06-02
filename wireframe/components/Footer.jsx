@@ -97,10 +97,10 @@ const Footer = ({ t, lang, setPage }) => {
             <div className="eyebrow" style={{ color:'var(--sky)', opacity:1 }}>{lang==='id' ? 'Lorem' : 'Lorem ipsum'}</div>
             <ul style={{ listStyle:'none', padding:0, margin:'10px 0 0', display:'flex', flexDirection:'column', gap: 10, fontSize: 15 }}>
               <li style={{ display:'flex', alignItems:'center', gap: 8, color:'rgba(255,249,232,0.9)' }}>
-                <Icon name="mail" size={14}/> resonansi@antikorupsi.org
+                <Icon name="mail" size={14}/> lorem@ipsum.dolor
               </li>
               <li style={{ display:'flex', alignItems:'center', gap: 8, color:'rgba(255,249,232,0.9)' }}>
-                <Icon name="phone" size={14}/> +62 21 7901 885
+                <Icon name="phone" size={14}/> +62 812 3456 7890
               </li>
             </ul>
           </div>
@@ -114,7 +114,7 @@ const Footer = ({ t, lang, setPage }) => {
           gap: 12, flexWrap: 'wrap',
         }}>
           <div>{f.legal}</div>
-          <div>{lang==='id' ? 'Dirancang dengan prinsip akses setara · WCAG 2.1 AA' : 'Designed for equal access · WCAG 2.1 AA'}</div>
+          <div>Lorem Ipsum Dolor Sit Amet, 2024</div>
         </div>
       </div>
     </footer>

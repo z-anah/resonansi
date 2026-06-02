@@ -4,18 +4,15 @@ const Wordmark = ({ size = 28, mono = false }) => {
   const accent = mono ? 'currentColor' : 'var(--yellow)';
   return (
     <div style={{ display:'inline-flex', alignItems:'center', gap: 10, color: nav }}>
-      <svg width={size} height={size} viewBox="0 0 40 40" fill="none">
-        {/* concentric arcs — resonance metaphor */}
-        <circle cx="20" cy="20" r="16" stroke={nav} strokeWidth="1.6" fill={mono ? 'transparent' : 'var(--sky-50)'}/>
-        <circle cx="20" cy="20" r="10" stroke={nav} strokeWidth="1.6" fill="none"/>
-        <circle cx="20" cy="20" r="4" fill={accent} stroke={nav} strokeWidth="1.6"/>
-        <path d="M20 4 V 10 M20 30 V 36 M4 20 H 10 M30 20 H 36" stroke={nav} strokeWidth="1.6" strokeLinecap="round"/>
+      {/* star fill icon */}
+      <svg viewBox="0 0 24 24" fill={accent} width={size} height={size}>
+        <path d="M12 2L14.09 8.26L20.97 8.27L15.45 11.97L17.54 18.23L12 14.53L6.46 18.23L8.55 11.97L3.03 8.27L9.91 8.26L12 2Z" />
       </svg>
       <span style={{
         fontFamily: 'var(--font-display)',
         fontWeight: 700, fontSize: size * 0.65, letterSpacing: '-0.02em',
         color: nav,
-      }}>Resonansi</span>
+      }}>Lorem</span>
     </div>
   );
 };

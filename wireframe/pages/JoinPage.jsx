@@ -1,28 +1,28 @@
 // Signature piece: Resocircle multi-step join flow
 
 const STEPS = [
-  { id: 'who',   t:{id:'Kenalan', en:'Hello'} },
-  { id: 'tier',  t:{id:'Tingkat', en:'Tier'} },
-  { id: 'interest', t:{id:'Minat', en:'Interests'} },
-  { id: 'pledge', t:{id:'Komitmen', en:'Pledge'} },
-  { id: 'done',  t:{id:'Selamat datang', en:'Welcome'} },
+  { id: 'who',   t:{id:'Lorem ipsum', en:'Lorem ipsum'} },
+  { id: 'tier',  t:{id:'Lorem ipsum', en:'Lorem Ipsum'} },
+  { id: 'interest', t:{id:'Lorem ipsum', en:'Lorem Ipsum'} },
+  { id: 'pledge', t:{id:'Lorem ipsum', en:'Lorem Ipsum'} },
+  { id: 'done',  t:{id:'LOREM IPSUM', en:'LOREM IPSUM'} },
 ];
 
 const INTERESTS = [
-  { k:'diskusi', id:'Diskusi publik', en:'Public discussion', tone:'yellow' },
-  { k:'seni',    id:'Seni & kreatif', en:'Arts & creative', tone:'pink' },
-  { k:'riset',   id:'Riset & data',   en:'Research & data', tone:'navy' },
-  { k:'perpus',  id:'Klub baca',      en:'Reading club', tone:'green' },
-  { k:'advokasi',id:'Advokasi warga', en:'Civic advocacy', tone:'yellow' },
-  { k:'podcast', id:'Podcast & media',en:'Podcast & media', tone:'pink' },
-  { k:'volunteer',id:'Relawan acara', en:'Event volunteer', tone:'green' },
-  { k:'fellow',  id:'Fellowship',     en:'Fellowship', tone:'navy' },
+  { k:'diskusi', id:'Lorem ipsum', en:'Lorem Ipsum', tone:'yellow' },
+  { k:'seni',    id:'Lorem ipsum', en:'Lorem Ipsum', tone:'pink' },
+  { k:'riset',   id:'Lorem ipsum', en:'Lorem Ipsum', tone:'navy' },
+  { k:'perpus',  id:'Lorem ipsum', en:'Lorem Ipsum', tone:'green' },
+  { k:'advokasi',id:'Lorem ipsum', en:'Lorem Ipsum', tone:'yellow' },
+  { k:'podcast', id:'Lorem ipsum', en:'Lorem Ipsum', tone:'pink' },
+  { k:'volunteer',id:'Lorem ipsum', en:'Lorem Ipsum', tone:'green' },
+  { k:'fellow',  id:'Lorem Ipsum', en:'Lorem Ipsum', tone:'navy' },
 ];
 
 const PLEDGES = [
-  { id:'Saya akan bicara dengan hormat, bahkan ketika tidak setuju.', en:'I will speak with respect, even when I disagree.' },
-  { id:'Saya akan menjaga ruang aman dari intimidasi & pelecehan.',   en:'I will keep this space safe from intimidation & harassment.' },
-  { id:'Saya memahami bahwa Resonansi bebas dari kepentingan partai.', en:'I understand Resonansi is free of party interests.' },
+  { id:'Lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.' },
+  { id:'Lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.' },
+  { id:'Lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.' },
 ];
 
 const JoinPage = ({ t, lang, setPage }) => {
@@ -50,9 +50,9 @@ const JoinPage = ({ t, lang, setPage }) => {
         {/* Progress rail */}
         <div style={{ maxWidth: 860, margin:'0 auto 32px' }}>
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom: 10 }}>
-            <div className="eyebrow">RESOCIRCLE · {lang==='id'?'Bergabung':'Join'}</div>
+            <div className="eyebrow">LOREM IPSUM · {lang==='id'?'Lorem ipsum':'Lorem Ipsum'}</div>
             <div className="mono" style={{ fontSize: 11, color:'var(--muted)' }}>
-              {lang==='id'?'Langkah':'Step'} {Math.min(step+1, STEPS.length)} / {STEPS.length}
+              {lang==='id'?'Lorem ipsum':'Lorem Ipsum'} 123 / 123
             </div>
           </div>
           <div style={{ display:'grid', gridTemplateColumns:`repeat(${STEPS.length}, 1fr)`, gap: 8 }}>
@@ -70,7 +70,7 @@ const JoinPage = ({ t, lang, setPage }) => {
                 fontSize: 10, letterSpacing:'0.08em', textTransform:'uppercase',
                 color: i <= step ? 'var(--navy)' : 'var(--muted)',
                 opacity: i === step ? 1 : 0.6,
-              }}>{s.t[lang]}</div>
+              }}>{'LOREM IPSUM'}</div>
             ))}
           </div>
         </div>
@@ -99,11 +99,11 @@ const JoinPage = ({ t, lang, setPage }) => {
               borderTop:'1px dashed var(--line)',
               display:'flex', justifyContent:'space-between', alignItems:'center',
             }}>
-              <button onClick={back} disabled={step === 0} className="btn btn-ghost"
+              <button onClick={back} className="btn btn-ghost"
                 style={{ opacity: step === 0 ? 0.4 : 1 }}>
                 <Icon name="arrow-left" size={14}/> {lang==='id'?'Kembali':'Back'}
               </button>
-              <button onClick={next} disabled={!canNext()} className="btn btn-primary"
+              <button onClick={next} className="btn btn-primary"
                 style={{ opacity: canNext() ? 1 : 0.4, cursor: canNext() ? 'pointer' : 'not-allowed' }}>
                 {step === STEPS.length - 2 ? (lang==='id'?'Selesaikan':'Finish') : (lang==='id'?'Lanjut':'Continue')}
                 <Icon name="arrow" size={14}/>
@@ -117,8 +117,8 @@ const JoinPage = ({ t, lang, setPage }) => {
           <div style={{ maxWidth: 860, margin:'24px auto 0', textAlign:'center' }}>
             <div className="mono" style={{ fontSize: 11, color:'var(--muted)' }}>
               {lang==='id'
-                ? 'Data kamu dienkripsi dan hanya dipakai untuk keanggotaan. Kami tidak menjual data — pernah.'
-                : 'Your data is encrypted and used only for membership. We never sell it — ever.'}
+                ? 'lorem ipsum dolor sit amet.'
+                : 'Lorem ipsum dolor sit amet.'}
             </div>
           </div>
         )}
@@ -131,18 +131,18 @@ const JoinPage = ({ t, lang, setPage }) => {
 const StepWho = ({ lang, data, set }) => (
   <div>
     <h2 style={{ margin: 0, fontFamily:'var(--font-display)', fontWeight: 700, fontSize: 44, letterSpacing:'-0.03em', color:'var(--navy)', lineHeight: 1.05 }}>
-      {lang==='id'?'Kenalkan, siapa kamu?' : "First — who are you?"}
+      {lang==='id'?'Lorem ipsum dolor sit amet?' : "Lorem Ipsum dolor sit amet?"}
     </h2>
     <p style={{ marginTop: 12, fontSize: 17, color:'var(--muted)', maxWidth: 540 }}>
       {lang==='id'
-        ? 'Cukup dua baris. Kami akan pakai nama ini untuk menyapa kamu di ruang.'
-        : "Just two lines. We'll use this name to greet you in the room."}
+        ? 'lorem ipsum dolor sit amet.'
+        : 'Lorem ipsum dolor sit amet.'}
     </p>
     <div className="r-grid-2" style={{ marginTop: 36, gap: 16 }}>
-      <JoinInput label={lang==='id'?'Nama panggilan':'Preferred name'} val={data.name} onChange={v=>set({ name: v })} placeholder={lang==='id'?'Misal: Dinda':'e.g. Dinda'} autoFocus/>
-      <JoinInput label="Surel" val={data.email} onChange={v=>set({ email: v })} placeholder="lorem@ipsum.dolor" type="email"/>
-      <JoinInput label={lang==='id'?'Kota':'City'} val={data.city} onChange={v=>set({ city: v })} placeholder="Jakarta"/>
-      <JoinInput label={lang==='id'?'Kata sandi':'Password'} val={data.pw||''} onChange={v=>set({ pw: v })} placeholder="••••••••" type="password"/>
+      <JoinInput label={lang==='id'?'Lorem ipsum':'Lorem Ipsum'} val={data.name} onChange={v=>set({ name: v })} placeholder={lang==='id'?'lorem ipsum':'Lorem Ipsum'} autoFocus/>
+      <JoinInput label="LOREM IPSUM" val={data.email} onChange={v=>set({ email: v })} placeholder="lorem@email.com" type="email"/>
+      <JoinInput label={lang==='id'?'Lorem ipsum':'Lorem Ipsum'} val={data.city} onChange={v=>set({ city: v })} placeholder="Lorem Ipsum"/>
+      <JoinInput label={lang==='id'?'Lorem ipsum':'Lorem Ipsum'} val={data.pw||''} onChange={v=>set({ pw: v })} placeholder="••••••••" type="password"/>
     </div>
   </div>
 );
@@ -166,17 +166,17 @@ const JoinInput = ({ label, val, onChange, placeholder, type='text', autoFocus }
 /* --- Step 2: Tier --- */
 const StepTier = ({ lang, data, set }) => {
   const tiers = [
-    { k:'pelajar', n:{id:'Pelajar', en:'Student'}, p:'Rp 0', per:{id:'/bulan', en:'/month'}, tone:'yellow', d:{id:'Gratis untuk mahasiswa & pelajar aktif.', en:'Free for active students.'} },
-    { k:'warga',   n:{id:'Warga',   en:'Citizen'}, p:'Rp 75K', per:{id:'/bulan', en:'/month'}, tone:'navy', d:{id:'Paling populer. Akses penuh.', en:'Most popular. Full access.'} },
-    { k:'organisasi', n:{id:'Organisasi', en:'Organization'}, p:'Rp 600K', per:{id:'/bulan', en:'/month'}, tone:'pink', d:{id:'Untuk lembaga & komunitas.', en:'For organisations & communities.'} },
+    { k:'pelajar', n:{id:'Lorem ipsum', en:'Lorem Ipsum'}, p:'123', per:{id:'/lorem', en:'/Ipsum'}, tone:'yellow', d:{id:'lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.'} },
+    { k:'warga',   n:{id:'Lorem ipsum',   en:'Lorem Ipsum'}, p:'123', per:{id:'/lorem', en:'/Ipsum'}, tone:'navy', d:{id:'lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.'} },
+    { k:'organisasi', n:{id:'Lorem ipsum', en:'Lorem Ipsum'}, p:'123', per:{id:'/lorem', en:'/Ipsum'}, tone:'pink', d:{id:'lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.'} },
   ];
   return (
     <div>
       <h2 style={{ margin: 0, fontFamily:'var(--font-display)', fontWeight: 700, fontSize: 44, letterSpacing:'-0.03em', color:'var(--navy)', lineHeight: 1.05 }}>
-        {lang==='id'?'Pilih tingkatan kamu':'Pick your tier'}
+        {lang==='id'?'Lorem ipsum dolor sit amet':'Lorem Ipsum dolor sit amet'}
       </h2>
       <p style={{ marginTop: 12, fontSize: 17, color:'var(--muted)' }}>
-        {lang==='id'?'Bisa diubah kapan saja, tanpa denda.':'Change anytime, no fees.'}
+        {lang==='id'?'lorem ipsum dolor sit amet.':'Lorem ipsum dolor sit amet.'}
       </p>
       <div className="r-grid-3" style={{ marginTop: 32, gap: 14 }}>
         {tiers.map(tier => {
@@ -222,10 +222,10 @@ const StepInterest = ({ lang, data, set }) => {
   return (
     <div>
       <h2 style={{ margin: 0, fontFamily:'var(--font-display)', fontWeight: 700, fontSize: 44, letterSpacing:'-0.03em', color:'var(--navy)', lineHeight: 1.05 }}>
-        {lang==='id'?'Apa yang menarik buat kamu?':'What draws you in?'}
+        {lang==='id'?'Lorem ipsum dolor sit amet?':'Lorem Ipsum dolor sit amet?'}
       </h2>
       <p style={{ marginTop: 12, fontSize: 17, color:'var(--muted)' }}>
-        {lang==='id'?'Pilih 1 atau lebih. Ini mengatur undangan yang kamu terima.':'Pick 1 or more. This shapes the invites you get.'}
+        {lang==='id'?'lorem ipsum dolor sit amet.':'Lorem ipsum dolor sit amet.'}
       </p>
       <div className="r-grid-4" style={{ marginTop: 32, gap: 12 }}>
         {INTERESTS.map(it => {
@@ -252,7 +252,7 @@ const StepInterest = ({ lang, data, set }) => {
         })}
       </div>
       <div className="mono" style={{ marginTop: 20, fontSize: 11, color:'var(--muted)' }}>
-        {data.interests.length} {lang==='id'?'dipilih':'selected'}
+        123 {lang==='id'?'lorem ipsum':'Lorem Ipsum'}
       </div>
     </div>
   );
@@ -268,10 +268,10 @@ const StepPledge = ({ lang, data, set }) => {
   return (
     <div>
       <h2 style={{ margin: 0, fontFamily:'var(--font-display)', fontWeight: 700, fontSize: 44, letterSpacing:'-0.03em', color:'var(--navy)', lineHeight: 1.05 }}>
-        {lang==='id'?'Janji kecil sebelum masuk':'A small pledge before entering'}
+        {lang==='id'?'Lorem ipsum dolor sit amet':'Lorem Ipsum dolor sit amet'}
       </h2>
       <p style={{ marginTop: 12, fontSize: 17, color:'var(--muted)', maxWidth: 620 }}>
-        {lang==='id'?'Bukan kontrak. Cuma tiga hal yang membuat ruangan ini bisa bertahan.':'Not a contract. Just three things that keep this room alive.'}
+        {lang==='id'?'lorem ipsum dolor sit amet.':'Lorem ipsum dolor sit amet.'}
       </p>
       <div style={{ marginTop: 32, display:'flex', flexDirection:'column', gap: 12 }}>
         {PLEDGES.map((p, i) => {
@@ -311,16 +311,16 @@ const StepDone = ({ lang, data, setPage }) => {
     <div style={{ display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', flex: 1, textAlign:'center' }}>
       <ConfettiBurst/>
       <div className="eyebrow" style={{ color:'var(--yellow)', opacity:1 }}>
-        {lang==='id'?'Kamu resmi anggota':'You are now a member'}
+        {lang==='id'?'LOREM IPSUM':'LOREM IPSUM'}
       </div>
       <h2 style={{ margin:'18px 0 0', fontFamily:'var(--font-display)', fontWeight: 700, fontSize: 64, letterSpacing:'-0.035em', lineHeight: 1.0, color:'#FFF9E8' }}>
-        {lang==='id' ? (<>Selamat datang,<br/><span style={{ fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight: 400, color:'var(--yellow)' }}>{data.name || 'kawan'}.</span></>)
-                     : (<>Welcome,<br/><span style={{ fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight: 400, color:'var(--yellow)' }}>{data.name || 'friend'}.</span></>)}
+        {lang==='id' ? (<>Lorem ipsum,<br/><span style={{ fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight: 400, color:'var(--yellow)' }}>{data.name || 'lorem ipsum'}.</span></>)
+                     : (<>Lorem Ipsum,<br/><span style={{ fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight: 400, color:'var(--yellow)' }}>{data.name || 'Lorem Ipsum'}.</span></>)}
       </h2>
       <p style={{ margin:'20px 0 0', fontSize: 17, color:'rgba(255,249,232,0.8)', maxWidth: 560 }}>
         {lang==='id'
-          ? 'Kartu anggota digital sudah terkirim ke surelmu. Lemari pinjaman di Perpustakaan terbuka untukmu mulai besok.'
-          : 'Your digital member card has been sent to your email. The lending shelf at the Library opens to you from tomorrow.'}
+          ? 'lorem ipsum dolor sit amet.'
+          : 'Lorem ipsum dolor sit amet.'}
       </p>
       <div style={{
         marginTop: 36, padding: '18px 28px',
@@ -328,16 +328,16 @@ const StepDone = ({ lang, data, setPage }) => {
         borderRadius:'var(--radius-lg)',
       }}>
         <div className="mono" style={{ fontSize: 11, color:'var(--yellow)', letterSpacing:'0.12em' }}>
-          {lang==='id'?'KODE ANGGOTA':'MEMBER CODE'}
+          {lang==='id'?'LOREM IPSUM':'LOREM IPSUM'}
         </div>
         <div style={{ marginTop: 6, fontFamily:'var(--font-mono)', fontSize: 28, color:'#FFF9E8', letterSpacing:'0.1em' }}>{code}</div>
       </div>
       <div style={{ marginTop: 36, display:'flex', gap: 12 }}>
         <button onClick={()=>setPage('activities')} className="btn btn-accent">
-          {lang==='id'?'Lihat agenda minggu ini':"See this week's agenda"} <Icon name="arrow"/>
+          {lang==='id'?'LOREM IPSUM':'LOREM IPSUM'} <Icon name="arrow"/>
         </button>
         <button onClick={()=>setPage('home')} className="btn" style={{ background:'transparent', color:'#FFF9E8', border:'1px solid rgba(255,255,255,0.3)' }}>
-          {lang==='id'?'Ke beranda':'Back to home'}
+          {lang==='id'?'LOREM IPSUM':'LOREM IPSUM'}
         </button>
       </div>
     </div>

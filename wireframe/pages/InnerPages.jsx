@@ -75,13 +75,13 @@ const AboutPage = ({ t, lang }) => (
 
     {/* Team */}
     <section className="app" style={{ padding:'var(--gap-5) var(--gap-4)' }}>
-      <SectionHeader eyebrow={lang==='id'?'Tim kecil, jaringan besar':'Small team, big network'} title={lang==='id'?'Orang-orang di balik meja':'People behind the desk'}/>
+      <SectionHeader eyebrow={'LOREM IPSUM, DOLOR SIT AMET'} title={'Lorem ipsum dolor sit amet'}/>
       <div className="r-grid-4" style={{ marginTop: 32 }}>
         {[
-          { n:'Almas Sjafrina', r:{id:'Direktur Program', en:'Program Director'}, tone:'yellow' },
-          { n:'Tama S. Langkun', r:{id:'Manajer Ruang', en:'Space Manager'}, tone:'pink' },
-          { n:'Diky Anandya',  r:{id:'Koordinator Riset', en:'Research Lead'}, tone:'green' },
-          { n:'Kurnia Ramadhana', r:{id:'Koord. Komunitas', en:'Community Lead'}, tone:'sky' },
+          { n:'Lorem Ipsum', r:{id:'Lorem Ipsum', en:'Lorem Ipsum'}, tone:'sky' },
+          { n:'Lorem Ipsum', r:{id:'Lorem Ipsum', en:'Lorem Ipsum'}, tone:'sky' },
+          { n:'Lorem Ipsum', r:{id:'Lorem Ipsum', en:'Lorem Ipsum'}, tone:'sky' },
+          { n:'Lorem Ipsum', r:{id:'Lorem Ipsum', en:'Lorem Ipsum'}, tone:'sky' },
         ].map((p,i)=>(
           <div key={i}>
             <div style={{
@@ -89,7 +89,7 @@ const AboutPage = ({ t, lang }) => (
               borderRadius:'var(--radius-lg)', aspectRatio:'1', position:'relative', overflow:'hidden',
             }}>
               <div className="placeholder" data-tone={p.tone} style={{ position:'absolute', inset:0, borderRadius:'var(--radius-lg)' }}>
-                <span className="ph-label">potret · {p.n.split(' ').map(x=>x[0]).join('')}</span>
+                <span className="ph-label">LOREM · LID</span>
               </div>
             </div>
             <div style={{ marginTop: 14, fontWeight: 700, fontSize: 17, color:'var(--navy)' }}>{p.n}</div>
@@ -102,9 +102,9 @@ const AboutPage = ({ t, lang }) => (
     {/* Partners strip */}
     <section style={{ background:'var(--bg-2)', padding:'var(--gap-4) 0', borderTop:'1px solid var(--line)', borderBottom:'1px solid var(--line)' }}>
       <div className="app">
-        <div className="eyebrow" style={{ textAlign:'center' }}>{lang==='id'?'Didukung oleh':'Supported by'}</div>
+        <div className="eyebrow" style={{ textAlign:'center' }}>{'Lorem ipsum'}</div>
         <div style={{ marginTop: 24, display:'flex', justifyContent:'space-around', alignItems:'center', flexWrap:'wrap', gap: 40 }}>
-          {['INDONESIA CORRUPTION WATCH','KONTRAS','LBH JAKARTA','TEMPO INSTITUTE','TIFA FOUNDATION','PWYP INDONESIA'].map(p=>(
+          {['LOREM IPSUM','LOREM IPSUM','LOREM IPSUM','LOREM IPSUM','LOREM IPSUM','LOREM IPSUM'].map(p=>(
             <div key={p} className="mono" style={{ fontSize: 12, letterSpacing:'0.15em', color:'var(--muted)', fontWeight: 600 }}>{p}</div>
           ))}
         </div>
@@ -229,9 +229,9 @@ const ActivitiesPage = ({ t, lang }) => {
   return (
     <div>
       <PageHeader
-        eyebrow={lang==='id'?'Aktivitas':'Activities'}
-        title={lang==='id'?'Ada yang terjadi hampir tiap malam.':'Something happens here almost every night.'}
-        sub={lang==='id'?'Dari diskusi publik, kelas seni, klub baca, sampai rilis investigasi. Semua terbuka.':'Public discussions, art classes, reading clubs, investigative releases — all open.'}
+        eyebrow={'Lorem'}
+        title={'Lorem ipsum dolor sit amet.'}
+        sub={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
         tone="pink"/>
 
       <section className="app" style={{ padding:'var(--gap-5) var(--gap-4)' }}>
@@ -285,9 +285,9 @@ const ContactPage = ({ t, lang }) => {
   return (
     <div>
       <PageHeader
-        eyebrow={lang==='id'?'Kontak':'Contact'}
-        title={lang==='id'?'Kirim kabar, kritik, atau kue.':'Send us news, critique, or cake.'}
-        sub={lang==='id'?'Kami membalas dalam 2 hari kerja. Untuk urusan mendesak, telepon.':'We reply within 2 business days. For urgent matters, call.'}
+        eyebrow={'Lorem'}
+        title={'Lorem ipsum dolor sit amet.'}
+        sub={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
         tone="navy"/>
       <section className="app" style={{ padding:'var(--gap-5) var(--gap-4)' }}>
         <div className="r-split-map" style={{ gap: 48 }}>
@@ -312,20 +312,20 @@ const ContactPage = ({ t, lang }) => {
                 </button>
               </div>
             ) : <>
-              <FormField label={lang==='id'?'Nama lengkap':'Full name'} placeholder={lang==='id'?'Namamu':'Your name'}/>
-              <FormField label="Surel" placeholder="lorem@ipsum.dolor" type="email"/>
-              <FormField label={lang==='id'?'Subjek':'Subject'} placeholder={lang==='id'?'Ringkas saja':'Brief'}/>
-              <FormField label={lang==='id'?'Pesan':'Message'} placeholder="..." textarea/>
+              <FormField label="Lorem" placeholder={'Lorem'}/>
+              <FormField label="Lorem" placeholder={'Lorem'}/>
+              <FormField label="Lorem" placeholder={'Lorem'}/>
+              <FormField label="Lorem" placeholder="..." textarea/>
               <button type="submit" className="btn btn-primary" style={{ marginTop: 10 }}>
-                <Icon name="send" size={14}/> {lang==='id'?'Kirim pesan':'Send message'}
+                <Icon name="send" size={14}/> {'Lorem Ipsum'}
               </button>
             </>}
           </form>
           <div style={{ display:'flex', flexDirection:'column', gap: 20 }}>
-            <InfoBlock icon="mail" title={lang==='id'?'Surel':'Email'} v="resonansi@antikorupsi.org" tone="yellow"/>
-            <InfoBlock icon="phone" title={lang==='id'?'Telepon':'Phone'} v="+62 21 7901 885" tone="pink"/>
-            <InfoBlock icon="pin" title={lang==='id'?'Alamat':'Address'} v={t.footer.address} tone="green"/>
-            <InfoBlock icon="calendar" title={lang==='id'?'Jam buka':'Hours'} v={t.footer.open} tone="sky"/>
+            <InfoBlock icon="mail" title={'Lorem'} v="lorem@ipsum.dolor" tone="sky"/>
+            <InfoBlock icon="phone" title={'Lorem'} v="+62 812 3456 7890" tone="sky"/>
+            <InfoBlock icon="pin" title={'Lorem'} v={t.footer.address} tone="sky"/>
+            <InfoBlock icon="calendar" title={'Lorem'} v={t.footer.open} tone="sky"/>
           </div>
         </div>
       </section>

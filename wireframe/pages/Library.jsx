@@ -2,26 +2,26 @@
 
 const LibraryPage = ({ t, lang }) => {
   const books = [
-    { t:'Orang-Orang Oetimu', a:'Felix K. Nesi', tone:'yellow' },
-    { t:'Di Bawah Bendera Revolusi', a:'Soekarno', tone:'pink' },
-    { t:'Korupsi: Sebuah Pengantar', a:'Syed Hussein Alatas', tone:'navy' },
-    { t:'Cerita dari Blora', a:'Pramoedya A. Toer', tone:'green' },
-    { t:'Dari Hari ke Hari', a:'Mahbub Djunaidi', tone:'yellow' },
-    { t:'Laporan dari Bawah', a:'Mochtar Lubis', tone:'pink' },
+    { t:'Lorem Ipsum Dolor', a:'Lorem. Ipsum Dolor', tone:'sky' },
+    { t:'Lorem Ipsum Dolor', a:'Lorem. Ipsum Dolor', tone:'sky' },
+    { t:'Lorem Ipsum Dolor', a:'Lorem. Ipsum Dolor', tone:'sky' },
+    { t:'Lorem Ipsum Dolor', a:'Lorem. Ipsum Dolor', tone:'sky' },
+    { t:'Lorem Ipsum Dolor', a:'Lorem. Ipsum Dolor', tone:'sky' },
+    { t:'Lorem Ipsum Dolor', a:'Lorem. Ipsum Dolor', tone:'sky' },
   ];
   return (
     <div>
       <PageHeader
-        eyebrow={lang==='id'?'Perpustakaan':'Library'}
-        title={lang==='id'?'2.400 buku. Meja panjang. Lampu kuning.':'2,400 books. Long tables. Warm lamps.'}
-        sub={lang==='id'?'Buka untuk umum. Pinjam gratis untuk anggota. Sewa rak untuk komunitas.':'Open to the public. Free loans for members. Shelf rental for communities.'}
+        eyebrow={'LOREM IPSUM'}
+        title={'Lorem ipsum dolor sit amet.'}
+        sub={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
         tone="pink"/>
       <section className="app" style={{ padding:'var(--gap-5) var(--gap-4)' }}>
         <div className="r-grid-3" style={{ marginBottom:'var(--gap-5)' }}>
           {[
-            { t:{id:'Koleksi', en:'Collection'}, n:'2.412', d:{id:'Buku, zine, dan rilis laporan.', en:'Books, zines, and report releases.'} },
-            { t:{id:'Rak sewa', en:'Shelf rental'}, n:'18 / 24', d:{id:'Rak aktif bulan ini, dikelola komunitas.', en:'Active shelves this month, community-run.'} },
-            { t:{id:'Klub baca', en:'Reading clubs'}, n:'6', d:{id:'Pertemuan mingguan, tema berputar.', en:'Weekly meetings, rotating themes.'} },
+            { t:{id:'Lorem', en:'Lorem'}, n:'1.234', d:{id:'Lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.'} },
+            { t:{id:'Lorem', en:'Lorem'}, n:'1.234', d:{id:'Lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.'} },
+            { t:{id:'Lorem', en:'Lorem'}, n:'1.234', d:{id:'Lorem ipsum dolor sit amet.', en:'Lorem ipsum dolor sit amet.'} },
           ].map((s,i)=>(
             <div key={i} className="card" style={{ padding: 28 }}>
               <div className="eyebrow">{s.t[lang]}</div>
@@ -30,7 +30,7 @@ const LibraryPage = ({ t, lang }) => {
             </div>
           ))}
         </div>
-        <SectionHeader eyebrow={lang==='id'?'Pilihan rak minggu ini':'Shelf picks this week'} title={lang==='id'?'Baca dulu, ngobrol nanti':'Read first, talk later'}/>
+        <SectionHeader eyebrow={'Lorem Ipsum'} title={'Lorem ipsum dolor sit amet.'}/>
         <div className="r-grid-6" style={{ marginTop: 32 }}>
           {books.map((b, i) => (
             <div key={i}>
